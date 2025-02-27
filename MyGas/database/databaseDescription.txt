@@ -1,0 +1,36 @@
+Gas station :
+    id  // primary key
+    name
+    location
+    types of fuel
+    price of fuel per type
+    opening hours
+    closing hours
+    phone number
+    email
+    website
+    photo
+    reviews
+
+user :
+    id  // primary key
+    name
+    phone number
+    email
+
+review :
+    id  // primary key
+    user_id  // foreign key
+    gas_station_id  // foreign key
+    rating
+    comment
+    date
+
+locations :
+    id // primary key
+    number
+    street
+    city
+    state
+    zip code
+    coutry

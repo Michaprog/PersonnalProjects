@@ -1,4 +1,4 @@
-package com.yourcompany.garage.mygas;
+package com.yourcompany.mygas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

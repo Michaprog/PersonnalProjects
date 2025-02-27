@@ -8,10 +8,10 @@ services:
     container_name: my-database-container
     volumes:
       # Mount the SQL file so it's available for initialization
-      - ./database/tables.sql:/docker-entrypoint-initdb.d/tables.sql
+      - ./database/:/docker-entrypoint-initdb.d/
     environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydatabase
+      POSTGRES_USER: mygas
+      POSTGRES_PASSWORD: mygas
+      POSTGRES_DB: mygas
     ports:
       - "5432:5432"
